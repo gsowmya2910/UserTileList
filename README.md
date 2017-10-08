@@ -1,25 +1,21 @@
-# AngularJs_UserTileList
-#TODO
+<h1>User Tile List Application</h1>
 
-Task is to write a app for previewing user's detail. Given equirements:
+The application is developed in AngularJs(1.6 V) which previews the user's details. 
+Displays users list as a tile list. Once a user is chosen the details are dispalyed in the separate view. 
+Application styling is done by using external libs like bootstrap which keeps the application responsive.
 
-Display users list as a tile list.
-Make it possible to choose a user by clicking on a tile.
-Display chosen user in the separate view
-styling to the application by using external libs like bootstrap etc.
-Keeping the app responsive
-##Node
+<h2>System Requirements</h2>
 
-v6.10.3
+Node.js Runtime - v6.10.3
 
-Package manager
+Yarn Dependency Management -  1.1.0
 
-The package manager chosen is yarn. This is a new node package manager built on top of npm,
+<h2>Install</h2>
 
-Installation
+Change your working directory to "frontend." Then, run the following command:
+npm install -g yarn ( which installs yarn globally )
 
-To all frontend dependencies, first change your working directory to "frontend." Then, run the following command: yarn
+<h2>Running the UI</h2>
 
 To start the server, file watchers, and build process, run:   yarn server
-
-This will start the Webpack server and automatically rebuild and refresh the open frontend page as files are edited.
+This will start the Webpack server and automatically rebuild, refresh and open the frontend page.
