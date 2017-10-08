@@ -18,10 +18,8 @@ The package manager chosen is yarn. This is a new node package manager built on 
 
 Installation
 
-To all frontend dependencies, first change your working directory to "frontend." Then, run the following command:
+To all frontend dependencies, first change your working directory to "frontend." Then, run the following command: yarn
 
-yarn
-To start the server, file watchers, and build process, run
+To start the server, file watchers, and build process, run:   yarn server
 
-yarn server
 This will start the Webpack server and automatically rebuild and refresh the open frontend page as files are edited.
