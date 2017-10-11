@@ -1,4 +1,4 @@
-/node_modules
+ls -a/node_modules
 /coverage
 npm-debug.log
 

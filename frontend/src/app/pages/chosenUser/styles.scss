@@ -2,6 +2,7 @@
     border:2px solid black ;
     padding:10px;
     border-radius: 8px;
+    margin-top: 20px;
 }
 
  .row-data{
@@ -12,6 +13,10 @@
 .headingColor
 {
 background-color:$blue;  
+}
+.headingTextColor
+{
+    color: white
 }
 
 .choosenHeading

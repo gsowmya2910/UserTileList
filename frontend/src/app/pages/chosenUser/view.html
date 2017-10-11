@@ -1,6 +1,6 @@
 
-<div  class="details-container" ng-if="$ctrl.userDetails != null">
-   <div class="headingColor choosenHeading"><i class="glyphicon glyphicon-user spacingGlyphicon" ></i><b>Choosen User</b></div>
+<div  class="details-container"  ng-if="$ctrl.userDetails != null">
+   <div class="headingColor choosenHeading "><i class="glyphicon glyphicon-user spacingGlyphicon headingTextColor" ></i><b class="headingTextColor">Choosen User</b></div>
      <div  class="row-data">  
        <div>
          <span class="forId">Id:</span><span>{{$ctrl.userDetails.id}}</span>  
@@ -21,10 +21,23 @@
             <span class="forWebsite">Website:</span><span>{{$ctrl.userDetails.website}}</span>  
      </div>
      <div>   
-      <span class="forWebsite">Address:</span><span>{{$ctrl.userDetails.address}}</span>   
+      <span class="forWebsite">Address:</span>
+      <div style="padding-left: 61px;">
+          <div><span  style="padding-right: 20px;" >Suite:</span><span>{{$ctrl.userDetails.address.suite}}</span></div>
+          <div ><span style="padding-right: 16px;" >Street:</span><span>{{$ctrl.userDetails.address.street}}</span></div>
+          <div ><span style="padding-right: 29px;">city:</span><span>{{$ctrl.userDetails.address.city}}</span></div>
+          <div><span style="padding-right: 4px;">Zipcode:</span><span>{{$ctrl.userDetails.address.zipcode}}</span></div>
+          <div ><span style="padding-right: 26px;">Geo:</span><span>Lat: {{$ctrl.userDetails.address.geo.lat}}</span><span></span></span><span>Lng: {{$ctrl.userDetails.address.geo.lng}}</span></div>
+      </div>
+       
      </div>
      <div>   
-      <span class="forWebsite">Company:</span><span>{{$ctrl.userDetails.company}}</span>  
+      <span class="forWebsite">Company:</span>
+      <div style="padding-left: 61px;">
+          <div><span style="padding-right: 16px;" >Name:</span><span>{{$ctrl.userDetails.company.name}}</span></div>
+          <div><span >CathPhrase:</span><span>{{$ctrl.userDetails.company.catchPhrase}}</span></div>
+          <div><span style="padding-right: 29px;" >bs:</span><span>{{$ctrl.userDetails.company.bs}}</span></div>
+      </div> 
 </div>
     </div>
 </div>
